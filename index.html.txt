@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HelloTales • Your Personalized Story</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Montserrat", sans-serif;
+      background: #faf7f2;
+      color: #333;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      max-width: 420px;
+      background: white;
+      padding: 28px;
+      border-radius: 18px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Your Personalized Story</h1>
+
+    <p>
+      Enjoy your HelloTales preview.  
+      This audio was created specially with love, imagination and your child’s world in mind.
+    </p>
+
+    <!-- Cambia story.mp3 por el nombre del archivo que subas -->
+    <audio controls>
+      <source src="story.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="footer">
+      © HelloTales • Imagination First
+    </div>
+  </div>
+
+</body>
+</html>
